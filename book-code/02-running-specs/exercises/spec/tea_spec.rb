@@ -1,4 +1,11 @@
 class Tea
+  def flavor
+    :earl_grey
+  end
+
+  def temperature
+    250.0
+  end
 end
 
 RSpec.configure do |config|
